@@ -1,0 +1,1 @@
+# StadiumMind AI Core Package
