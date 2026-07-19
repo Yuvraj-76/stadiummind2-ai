@@ -1,6 +1,6 @@
-# StadiumMind AI ⚽ — The Intelligent Stadium Operations Copilot
+# StadiumOS ⚽ — The Intelligent Stadium Operations Copilot
 
-StadiumMind AI is a production-grade, modular, and scalable GenAI-powered platform designed for the **FIFA World Cup 2026**. The platform optimizes stadium operations and enriches matchday experiences for three distinct target roles: **Fans**, **Volunteers**, and **Organizers**.
+StadiumOS is a production-grade, modular, and scalable GenAI-powered platform designed for the **FIFA World Cup 2026**. The platform optimizes stadium operations and enriches matchday experiences for three distinct target roles: **Fans**, **Volunteers**, and **Organizers**.
 
 Built on **Clean Architecture** patterns in the backend and a modern **Next.js App Router** frontend, it leverages Generative AI to deliver real-time navigation support, crowd management recommendations, instant multilingual translations, automated volunteer standard operating procedures (SOPs), and organizer decision tools.
 
@@ -9,7 +9,7 @@ Built on **Clean Architecture** patterns in the backend and a modern **Next.js A
 ## 🏗️ Folder Structure
 
 ```text
-stadiummind2-ai/
+stadiumOS/
 ├── .github/                 # CI/CD Workflows
 │   └── workflows/
 │       └── ci.yml           # GitHub Actions (Linting, Typing, Pytest)
@@ -109,7 +109,7 @@ npm run dev
 
 ## 🧠 Generative AI & Context Injection
 
-StadiumMind AI avoids generic, static AI chats. Every query compiles real-time stadium metrics before dispatching prompts:
+StadiumOS avoids generic, static AI chats. Every query compiles real-time stadium metrics before dispatching prompts:
 1. **Context Compilation**: The AI service queries the database for active Stand Density Levels, Wait Times at nearby restrooms/food concession stands, and current Live Broadcast Alerts.
 2. **Dynamic Prompt Compilation**:
    - **Fans**: Recommends the fastest route to F&B, prioritizes accessible facilities if requested, and provides SOS evacuation coordinates in emergencies.
