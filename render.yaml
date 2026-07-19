@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: stadiummind-backend
+    env: python
+    rootDir: backend
+    repo: https://github.com/Yuvraj-76/stadiummind2-ai
+    plan: free
+    branch: main
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn main:app --host 0.0.0.0 --port $PORT
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.0
+      - key: APP_ENV
+        value: production
